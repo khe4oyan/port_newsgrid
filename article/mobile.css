@@ -1,0 +1,19 @@
+main{
+	margin-top: 0rem;
+	width: 100%;
+	min-height: 100vh;
+}
+main .container{
+	display: block;
+    padding: 0rem;
+    padding: .6rem .6rem .6rem;
+}
+main .container > div{
+	background: white;
+	padding: 1rem;
+    margin-bottom: .6rem;
+}
+main .container > div:last-child{
+    margin-bottom: .0rem;
+
+}

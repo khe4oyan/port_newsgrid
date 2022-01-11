@@ -1,0 +1,64 @@
+main{
+	margin-top: 2rem;
+	width: 100%;
+	min-height: 100vh;
+}
+main .container{
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: 7fr 3fr;
+	grid-template-rows:  1fr 0.5fr 3fr;
+}
+main .container > div{
+	background: white;
+	padding: 1rem;
+}
+main .container .box1{
+	grid-row: 1/ span 3;
+}
+main .container .box1 h1{
+	margin-top: 1rem;
+}
+main .container .box1 .by{
+	width: 100%;
+	background: #f3f3f3;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1.5rem 0rem .5rem;
+	padding: 0.5rem 1rem;
+}
+main .container .box1 .by .category{
+	margin-bottom: 0;
+}
+main .container .box2{
+	grid-row: 1 / span 1;
+}
+main .container .box2 ul{
+	margin-top: 1rem;
+
+}
+main .container .box2 ul li{
+	border-bottom: .15rem dotted black;
+	padding: .5rem 0rem;
+	transition: .5s;
+} 
+main .container .box2 ul li:hover{
+	background: #E4E4E4;
+	border-bottom: .15rem solid black;
+}
+main .container .box2 ul li:hover a{
+	padding-left: 1rem;
+}
+main .container .box2 ul li a{
+	transition: .5s;
+}
+main .container .box3{
+	grid-row: 2 / span 1;
+	background: var(--secondary-color);
+	color: white;
+}
+main .container .box3 a{
+	width: 100%;
+	text-align: center;
+}

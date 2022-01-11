@@ -1,0 +1,121 @@
+/*-----------------------*/
+/*			by Khechoyan    */
+/*-----------------------*/
+#main-nav{
+	background: #fff;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 2;
+    display: block;
+}
+#main-nav .container{
+	display: block;
+	align-items: center;
+	padding: 1rem;
+	padding-bottom: .1rem;
+}
+#main-nav .container .social a i{
+	font-size: 2.1rem;
+}
+#main-nav .logo{
+	width: 6rem;
+}
+#main-nav ul{
+	display: flex;
+    justify-content: space-between;
+}
+#main-nav ul li{
+    width: 100%;
+}
+#main-nav ul li a{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+	font-weight: bold;
+}
+#main-nav ul li a:hover{
+	background: var(--light-color);
+	color: var(--dark-color);
+}
+#main-nav ul li a.current{
+	background: var(--primary-color);
+	color: #fff;
+}
+#main-nav .social{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+#main-nav .social i{
+	color: #777;
+	margin-right: .5rem;
+}
+.btn{
+	display: inline-block;
+	border: none;
+	background-color: var(--dark-color);
+	color: #fff;
+	padding: .5rem 1.5rem;
+}
+.btn:hover{
+	opacity: .8;
+}
+footer{
+	width: 100%;
+	background: var(--dark-color);
+}
+footer .container{
+	padding: 1.2rem 2.4rem;
+	display: block;
+	grid-template-columns: repeat(4, 1fr);
+
+}
+/* BOXES GENERAL */
+footer .container .box{
+	padding: 1rem;
+}
+footer .container .box h2,
+footer .container .box p,
+footer .container .box a{
+	color: white;
+}
+footer .container .box h2{
+	font-size: 1.1rem;
+	margin-bottom: .3rem;
+}
+footer .container .box p,
+footer .container .box a{
+	font-size: .9rem;
+}
+
+/* BOXES */
+footer .container .box1 img{
+	width: 70%;
+}
+footer .container .box2 form input{
+	width: 100%;
+	padding: .5rem;
+}
+footer .container .box2 form input[type="submit"]{
+	margin-top: 3%;
+	background: var(--primary-color);
+}
+footer .container .box3 ul li{
+	border-bottom: 1px dotted #666;
+	padding: .3rem 0rem;
+}
+footer .container .box4 a{
+	background: var(--secondary-color);	
+}
+footer .container .box5{
+	grid-column: 1 / span 4;
+	text-align: center;
+	background: #444445;
+	color: white;
+}
+footer a{
+    width: 100%;
+    text-align: center;
+}

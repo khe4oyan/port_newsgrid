@@ -1,0 +1,29 @@
+main{
+	margin-top: 2rem;
+	padding: 0rem 2rem 2rem;
+}
+main .container{
+	display: grid;
+	grid-template-columns: 6fr 2.5fr;
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 1rem;
+}
+main .container div{
+	padding: 1rem;
+
+}
+main .box1 h1{
+	display: inline-block;
+	padding-top: 1rem;
+	font-size: 3rem;
+}
+main .box1{
+	background: white;
+	grid-row: 1 / span 3;
+}
+main .box2{
+	background: var(--primary-color);
+	grid-row: 1 / span 1;
+	color: white;
+
+}

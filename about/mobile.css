@@ -1,0 +1,40 @@
+main{
+	margin-top: 2rem;
+	padding: 0rem 0rem 0rem;
+}
+main .container{
+	display: block;
+    padding: 0rem 1rem;
+}
+main .box1 h1{
+    text-align: center;
+	display: inline-block;
+    width: 100%;
+	padding-top: .5rem;
+	font-size: 2rem;
+}
+main .box1{
+    background: white;
+    grid-row: 1 / span 3;
+}
+main .box1 h1{
+    font-size: 1.5rem;
+}
+main .box1 p{
+    text-align: justify;
+}
+main .box2{
+	background: var(--primary-color);
+	grid-row: 1 / span 1;
+	color: white;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+main .box2 h3{
+    text-align: center;
+}
+main .box2 a{
+    width: 100%;
+    text-align: center;
+
+}
